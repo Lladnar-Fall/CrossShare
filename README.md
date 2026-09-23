@@ -106,4 +106,3 @@ Transfer method scales with file size:
 
 ---
 
-*This README was assembled from the CrossShare architecture guide and internal technical documentation.*
