@@ -1,0 +1,33 @@
+# Ignore everything by default
+*
+
+# But allow directories to be traversed
+!*/
+
+# Allow the specific server files
+!server/main.go
+!server/db.go
+!server/auth.go
+!server/hub.go
+!server/blobs.go
+!server/cleanup.go
+!server/go.mod
+!server/go.sum
+!server/Dockerfile
+!server/railway.json
+
+# Allow the specific agent files
+!agent/main.go
+!agent/config.go
+!agent/types.go
+!agent/clipboard.go
+!agent/watcher.go
+!agent/ws.go
+!agent/api.go
+!agent/inbox.go
+!agent/go.mod
+!agent/go.sum
+
+# Always allow the gitignore itself
+!.gitignore
+android/
